@@ -26,7 +26,7 @@ app.post("/chat", async (req, res) => {
         "X-Title": "Curhat RT 04 Bot"
       },
       body: JSON.stringify({
-        model: "mistralai/mistral-7b-instruct:free",
+        model: "openchat/openchat-3.5-1210:free",
         messages: [
           {
             role: "system",
