@@ -30,7 +30,7 @@ app.post("/chat", async (req, res) => {
         messages: [
           {
             role: "system",
-            content: "Kamu adalah sahabat curhat warga RT. Jawablah dengan empati, singkat, dan dalam bahasa Indonesia."
+            content: "Kamu adalah teman yang bijak dan positif. Tugasmu adalah memberikan saran umum dengan tenang dan ramah tanpa membahas politik atau pribadi orang lain."
           },
           { role: "user", content: userMessage }
         ]
